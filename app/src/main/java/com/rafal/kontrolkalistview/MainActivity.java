@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 int itemPosition = i + 1;
                 String itemValue = (String) adapterView.getItemAtPosition(i);
-                content.setText("Klinkęło: \npozycja: " + itemPosition + "\nwartość opcji: " + itemValue);
+                content.setText("Kliknięto: \npozycja: " + itemPosition + "\nwartość opcji: " + itemValue);
             }
         });
 
